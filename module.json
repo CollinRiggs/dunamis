@@ -20,6 +20,8 @@
         }
     ],
     "download": "https://github.com/CollinRiggs/dunamis/raw/main/dunamis-1.0.zip",
+    "manifest": "https://raw.githubusercontent.com/CollinRiggs/dunamis/main/module.json",
+    "url": "https://github.com/CollinRiggs/dunamis",
     "packs": [
         {
             "name": "dunamisclass",
