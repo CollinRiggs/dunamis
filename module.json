@@ -19,7 +19,6 @@
             "name": "dae"
         }
     ],
-    "download": "https://github.com/CollinRiggs/dunamis/raw/main/dunamis-1.0.zip",
     "packs": [
         {
             "name": "dunamisclass",
