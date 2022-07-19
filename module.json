@@ -1,0 +1,59 @@
+{
+    "name": "dunamis",
+    "title": "Dunamis",
+    "description": "A content module for the Dunamis homebrew content written by Artagan.",
+    "authors": [
+        {
+            "name": "Artagan"
+        },
+        {
+            "name": "Bread"
+        }
+    ],
+    "version": "1",
+    "minimumCoreVersion": "0.8.8",
+    "compatibleCoreVersion": "9.269",
+    "system": [ "dnd5e" ],
+    "dependencies": [
+        {
+            "name": "dae"
+        }
+    ],
+    "packs": [
+        {
+            "name": "dunamisclass",
+            "label": "Dunamis Classes",
+            "path": "dunamisclasses.db",
+            "type": "Item",
+            "module": "dunamis"
+        },
+        {
+            "name": "dunamissubclasses",
+            "label": "Dunamis Subclasses",
+            "path": "dunamissubclasses.db",
+            "type": "Item",
+            "module": "dunamis"
+        },
+        {
+            "name": "dunamisfeatures",
+            "label": "Dunamis Class Features",
+            "path": "dunamisclassfeatures.db",
+            "type": "Item",
+            "module": "dunamis"
+        },
+        {
+            "name": "dunamismonsterfeatures",
+            "label": "Dunamis Monster Features",
+            "path": "dunamismonsterfeatures.db",
+            "type": "Item",
+            "module": "dunamis"
+        },
+        {
+            "name": "dunamismonsters",
+            "label": "Dunamis Monsters",
+            "path": "dunamismonsters.db",
+            "type": "Actor",
+            "module": "dunamis"
+        }
+    ]
+}
